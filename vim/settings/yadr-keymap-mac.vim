@@ -30,7 +30,7 @@ nnoremap <D-]> f]ci]
 
 " ==== NERD tree
 " Cmd-Shift-N for nerd tree
-nmap <D-N> :NERDTreeToggle<CR>
+nmap <leader>n :NERDTreeToggle<CR>
 
 " move up/down quickly by using Cmd-j, Cmd-k
 " which will move us around by functions
@@ -44,8 +44,8 @@ autocmd FileType javascript map <buffer> <D-k> }
 autocmd FileType javascript map <buffer> <D-j> {
 
 " Command-/ to toggle comments
-map <D-/> :TComment<CR>
-imap <D-/> <Esc>:TComment<CR>i
+map <leader>c<Space> :TComment<CR>
+imap <leader>c<Space> <Esc>:TComment<CR>i
 
 " Use numbers to pick the tab you want (like iTerm)
 map <silent> <D-1> :tabn 1<cr>

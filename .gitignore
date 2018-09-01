@@ -6,11 +6,13 @@ vim/view
 vim/.netrwhist
 vim/tmp
 vim/spell
-vim/after/.vimrc.after
-vim/.vundles.local
 vim/.vundles.local.bak
 vim/bundle
 vim/sessions
 .netrwhist
 bin/subl
 tags
+
+# We do want to check these in on our fork
+# vim/after/.vimrc.after
+# vim/.vundles.local
