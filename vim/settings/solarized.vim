@@ -63,12 +63,14 @@ if !exists("g:yadr_disable_solarized_enhancements")
   hi! VertSplit guifg=#003745 cterm=NONE term=NONE ctermfg=NONE ctermbg=NONE
   hi! LineNR guifg=#004C60 gui=bold guibg=#002B36 ctermfg=146
   hi! link NonText VertSplit
-  hi! Normal guifg=#77A5B1
+  " Ugly dark normal highlight
+  " hi! Normal guifg=#77A5B1
   hi! Constant guifg=#00BCE0
   hi! Comment guifg=#52737B
   hi! link htmlLink Include
   hi! CursorLine cterm=NONE gui=NONE
-  hi! Visual ctermbg=233
+  " Ugly dark visual highlight
+  " hi! Visual ctermbg=233
   hi! Type gui=bold
   hi! EasyMotionTarget ctermfg=100 guifg=#4CE660 gui=bold
 

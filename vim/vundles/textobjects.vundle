@@ -13,3 +13,5 @@ Bundle "nathanaelkane/vim-indent-guides"
 Bundle "nelstrom/vim-textobj-rubyblock"
 Bundle "thinca/vim-textobj-function-javascript"
 Bundle "wellle/targets.vim"
+
+Bundle "bps/vim-textobj-python"
