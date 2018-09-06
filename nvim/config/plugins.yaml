@@ -6,6 +6,7 @@
 # -------
 - repo: Shougo/dein.vim
 - repo: rafi/awesome-vim-colorschemes
+- repo: iCyMind/NeoSolarized
 - repo: rafi/vim-badge
 - repo: thinca/vim-localrc
 - repo: christoomey/vim-tmux-navigator
@@ -186,32 +187,11 @@
 - { repo: t9md/vim-quickhl, on_map: { nv: <Plug> }}
 - { repo: rafi/vim-sidemenu, on_map: { nv: <Plug> }}
 
-- repo: airblade/vim-gitgutter
-  on_path: .*
-  hook_source: |
-    let g:gitgutter_map_keys = 0
-    let g:gitgutter_sh = $SHELL
-
-- repo: nathanaelkane/vim-indent-guides
-  on_cmd: [ IndentGuidesEnable, IndentGuidesDisable, IndentGuidesToggle ]
-  hook_post_source: |
-    call indent_guides#init_script_vars()
-    call indent_guides#highlight_colors()
-  hook_add: |
-    let g:indent_guides_color_change_percent = 3
-    let g:indent_guides_autocmds_enabled = 0
-    let g:indent_guides_default_mapping = 0
-    let g:indent_guides_guide_size = 1
-    let g:indent_guides_indent_levels = 15
-    let g:custom_exclude = [ 'help', 'denite', 'codi' ]
-    autocmd MyAutoCmd BufEnter *
-      \ if ! empty(&l:filetype) && index(g:custom_exclude, &l:filetype) == -1
-      \|   if g:indent_guides_autocmds_enabled == 0 && &l:expandtab
-      \|     IndentGuidesEnable
-      \|   elseif g:indent_guides_autocmds_enabled == 1 && ! &l:expandtab
-      \|     IndentGuidesDisable
-      \|   endif
-      \| endif
+# - repo: airblade/vim-gitgutter
+#   on_path: .*
+#   hook_source: |
+#     let g:gitgutter_map_keys = 0
+#     let g:gitgutter_sh = $SHELL
 
 - repo: MattesGroeger/vim-bookmarks
   on_path: .*

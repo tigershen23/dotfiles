@@ -91,23 +91,34 @@ let s:stl_nc .= '%{&ft} '                      " File type
 " }}}
 
 " Highlights: Statusline {{{
-highlight StatusLine   ctermfg=236 ctermbg=248 guifg=#30302c guibg=#a8a897
-highlight StatusLineNC ctermfg=236 ctermbg=242 guifg=#30302c guibg=#666656
+" highlight StatusLine   ctermfg=236 ctermbg=248 guifg=#30302c guibg=#a8a897
+" highlight StatusLineNC ctermfg=236 ctermbg=242 guifg=#30302c guibg=#666656
+highlight! StatusLine ctermfg=242 ctermbg=254 guifg=#586e75 guibg=#eee8d5 gui=NONE
+highlight! StatusLineNC ctermfg=242 ctermbg=254 guifg=#586e75 guibg=#eee8d5 gui=NONE
+
+highlight! User1 ctermfg=242 ctermbg=254 guifg=#586e75 guibg=#eee8d5
+highlight! User2 ctermfg=242 ctermbg=254 guifg=#586e75 guibg=#eee8d5
+highlight! User3 ctermfg=242 ctermbg=254 guifg=#586e75 guibg=#eee8d5
+highlight! User4 ctermfg=242 ctermbg=254 guifg=#586e75 guibg=#eee8d5
+highlight! User5 ctermfg=242 ctermbg=254 guifg=#586e75 guibg=#eee8d5
+highlight! User6 ctermfg=242 ctermbg=254 guifg=#586e75 guibg=#eee8d5
+highlight! User7 ctermfg=242 ctermbg=254 guifg=#586e75 guibg=#eee8d5
+highlight! User8 ctermfg=242 ctermbg=254 guifg=#586e75 guibg=#eee8d5
 
 " Filepath color
-highlight User1 guifg=#D7D7BC guibg=#30302c ctermfg=251 ctermbg=236
+" highlight User1 guifg=#D7D7BC guibg=#30302c ctermfg=251 ctermbg=236
 " Line and column information
-highlight User2 guifg=#a8a897 guibg=#4e4e43 ctermfg=248 ctermbg=239
+" highlight User2 guifg=#a8a897 guibg=#4e4e43 ctermfg=248 ctermbg=239
 " Line and column corner arrow
-highlight User3 guifg=#4e4e43 guibg=#30302c ctermfg=239 ctermbg=236
+" highlight User3 guifg=#4e4e43 guibg=#30302c ctermfg=239 ctermbg=236
 " Buffer # symbol and whitespace or syntax errors
-highlight User4 guifg=#666656 guibg=#30302c ctermfg=242 ctermbg=236
+" highlight User4 guifg=#666656 guibg=#30302c ctermfg=242 ctermbg=236
 " Write symbol
-highlight User6 guifg=#cf6a4c guibg=#30302c ctermfg=167 ctermbg=236
+" highlight User6 guifg=#cf6a4c guibg=#30302c ctermfg=167 ctermbg=236
 " Paste symbol
-highlight User7 guifg=#99ad6a guibg=#30302c ctermfg=107 ctermbg=236
+" highlight User7 guifg=#99ad6a guibg=#30302c ctermfg=107 ctermbg=236
 " Syntax and whitespace
-highlight User8 guifg=#ffb964 guibg=#30302c ctermfg=215 ctermbg=236
+" highlight User8 guifg=#ffb964 guibg=#30302c ctermfg=215 ctermbg=236
 " }}}
 
 let s:disable_statusline =
