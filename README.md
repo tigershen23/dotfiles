@@ -95,6 +95,10 @@ rake update
 
 Read on to learn what YADR provides!
 
+### [NeoVim](https://neovim.io)
+
+Tiger's fork uses NeoVim!!
+
 ### [Homebrew](https://brew.sh/)
 
 Homebrew is _the missing package manager for macOS_. Installed automatically.

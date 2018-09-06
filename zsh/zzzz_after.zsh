@@ -1,9 +1,12 @@
 # Path modifications
 export NVM_DIR="$HOME/.nvm"
-. "/usr/local/opt/nvm/nvm.sh"
 
 # Prompt
 prompt pure
+
+# Python
+eval "$(pyenv init -)"
+eval "$(pyenv virtualenv-init -)"
 
 # Load any custom after code
 if [ -d $HOME/.zsh.after/ ]; then
