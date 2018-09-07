@@ -1,6 +1,9 @@
 # Path modifications
 export NVM_DIR="$HOME/.nvm"
 
+# Path
+export PATH=/Users/tiger/.local/bin:$PATH
+
 # Prompt
 prompt pure
 
